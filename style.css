@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  width: 1000px;
+  color: rgb(209, 244, 255);
+  border-width: 30px;
+  border-style: double;
+  border-color: #22577E;
+   
+}
+#pic1 {
+  float: right;
+}
+
+h1 {
+  font-family: OCR A Std, monospace;
+  font-weight: bold;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+  
+}
+input[type = text] {
+  border-color: #95D1CC;
+  border-width: 2px;
+  border-style: dashed;
+  color: #22577E;
+}
+
+h3 {
+  font-size: 22px;
+}
+#two input[type=button], input[type=submit], input[type=reset] {
+  
+  border: double;
+  border-color: #5584AC;
+  border-width: 7px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: url('images/keykey.png'), pointer;
+  background-color: #22577E;
+  
+}
+#four input[type=button], input[type=submit], input[type=reset] {
+  
+  border: double;
+  border-color: #F6F2D4;;
+  border-width: 7px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #95D1CC;
+}
+
+input[type=text] {
+  transition: width 0.4s ease-in-out;
+
+}
+
+input[type=text]:focus {
+  width: 100%;
+
+}
+/* https://www.w3schools.com/css/css_form.asp */
+
+#one {
+  background-color: #22577E;
+  padding: 20px;
+}
+
+#two {
+  background-color: #5584AC;
+  padding: 20px;
+  color: white;
+
+}
+
+#three{
+  background-color: #95D1CC;
+  padding: 20px;
+  color: white;
+}
+
+#four {
+  background-color: #F6F2D4;
+  padding: 20px;
+  color: black;
+}
